@@ -59,8 +59,11 @@ CÓDIGOS DO CAMPO DA TABELA:
 
 Para a Substituição Tributária vale ressaltar algumas condições quando utilizado MVA Original ou Ajustado:
 
+- Reduções interestaduais (Cesta básica - Artigo 3º: Todos os produtos que possuem redução de cesta básica em qualquer estado terão sempre MVA original. Esta é uma regra geral: quando a carga interna de ICMS próprio e ST for inferior a 12% da alíquota interestadual, ou seja, nunca se deve ajustar o MVA dos produtos da Cesta Básica). Esta redução se aplica a toda a cadeia, tanto nas entradas internas de ICMS próprio e ST quanto em todas as operações interestaduais.
 
+- Reduções interestaduais (Redução de 33,33% - Artigo 30/34/39/61/66/75: O fisco paulista entende que, se o produto tiver redução interna, na operação interestadual o MVA original deve ser considerado, pois a alíquota interna utilizada para o ajuste do MVA deve ser de 12%, igualando-se à alíquota interestadual).
 
+- Reduções interestaduais com o Suco de laranja em SP (Nas saídas internas de suco de laranja (NCM 2009.1), há previsão de redução da base de cálculo, garantindo que a carga tributária corresponda a 12%, desde que atendidos os requisitos legais do artigo 61 do Anexo II do RICMS/SP. Para esse caso, considera-se a MVA original. Além disso, há uma redução de 33,33% para toda a cadeia, conforme previsto para as saídas internas. No caso do Artigo 39 - Base de cálculo reduzida nas operações com preparações de produtos hortícolas, de frutas ou de outras partes de plantas do capítulo 20 da NCM, exceto suco de laranja classificado no código 2009.1 da NCM - a redução se aplica aos demais sucos.
 
 
 `MVA Importados (Resolução 13)`
