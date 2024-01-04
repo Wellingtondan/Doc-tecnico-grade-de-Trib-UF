@@ -48,5 +48,13 @@ Estabelece alíquotas do Imposto sobre Operações Relativas à Circulação de 
 - Alíquota 12% para 4% - Quando ocorrer redução de 33,33% que resulte em 12% a carga tributária.
 - Alíquota 7% para 4% - Quando ocorrer redução de Cesta Básica, resultante em carga tributária de 7%.
 
+- III.II CÓDIGOS: 
 
+|***CAMPO***  |***LEGENDA*** | 
+| ----------| --------------|
+| PERACRESCSTRESOLUCAO13 | %Acresc.ST Resolução 13 |
+| PERTRIBUTADORESOL13 | %Trib.Resol13 |
+| PERISENTORESOL13 | %Isento Resol13 |
+| PEROUTRORESOL13 | %Outros Resol13 |
+| PERICMSRESOLUCAO13 | %ICMS Resolução 13 |
 
