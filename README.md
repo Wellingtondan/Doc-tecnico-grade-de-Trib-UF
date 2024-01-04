@@ -5,7 +5,7 @@
 Com o objetivo de proporcionar maior clareza e compreensão sobre a Grade de Tributações por Unidade da Federação (UF), documentamos as informações essenciais para a estruturação dos processos da empresa. Dessa forma, identificamos uma abordagem que permite consolidar o conhecimento e as informações necessárias para serem aplicadas no trabalho com a base de tributação. Este documento visa oferecer um guia sólido e consistente para a equipe, otimizando a execução de tarefas relacionadas à tributação e promovendo eficiência nos processos.
 
 
-### Objetivos
+### 1. Objetivos
 
 A padronização de processos em nossa equipe facilitará a contribuição para os resultados e a comunicação na linguagem entre os colaboradores, visando adotar, entre as análises, configurações e/ou parametrizações, a mesma sistemática de entendimento na execução de tarefas.
 
@@ -14,7 +14,7 @@ Este documento contém informações de grande importância para a organização
 > É válido para os analistas na área tributária, garantindo que o andamento dos processos contenha a mesma visão de trabalho para uma melhor fluidez.
 
 
-### Metodologia
+### 2. Metodologia
 
 Como detentores do conhecimento geral sobre as configurações na grade de UF, o departamento tributário continua com a leitura e interpretação da legislação vigente no estado de localização de nossos clientes.
 
@@ -38,7 +38,7 @@ O diferimento tributário permite o adiamento do pagamento do imposto para uma f
 
 > As ferramentas utilizadas para aprofundamento das análises e processos específicos incluem a assessoria no site da Econet (http://www.econeteditora.com.br/), que possibilita a busca de informações de forma mais rápida. No entanto, a maior seguridade que temos é validar as informações diretamente pelo site da Fazenda do estado, tornando assim as informações ainda mais confiáveis.
 
-#### Metodologia/ Processo de parametrização
+#### 2.1 Metodologia/ Processo de parametrização
 
 `MVA Importados (Resolução 13)`
 
@@ -47,4 +47,6 @@ Estabelece alíquotas do Imposto sobre Operações Relativas à Circulação de 
 - Alíquota 18% para 4% - Quando for uma operação em que não resulte redução interna.
 - Alíquota 12% para 4% - Quando ocorrer redução de 33,33% que resulte em 12% a carga tributária.
 - Alíquota 7% para 4% - Quando ocorrer redução de Cesta Básica, resultante em carga tributária de 7%.
+
+
 
