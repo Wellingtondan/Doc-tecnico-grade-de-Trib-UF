@@ -53,6 +53,7 @@ CÓDIGOS DO CAMPO DA TABELA:
 | PEROUTRO | %Outros |
 | PERALIQUOTA | Alíquota |
      
+> Como de conhecimento aqui são aplicadas as reduções de Cesta básica, Artigos compostos por benefícios fiscais, isenções, alíquotas internas e interestaduais e outros quando aplicável para microempresa.
 
 `MVA Importados (Resolução 13)`
 
@@ -64,7 +65,7 @@ Estabelece alíquotas do Imposto sobre Operações Relativas à Circulação de 
 | Alíquota 12% para 4% | Quando ocorrer redução de 33,33% que resulte em 12% a carga tributária.|
 | Alíquota 7% para 4%  |Quando ocorrer redução de Cesta Básica, resultante em carga tributária de 7%.|
 
-Para facilitar o trabalho da automatização em conjunto com o Tributário, abaixo são os códigos utilizados na tabela ***consinco.map_tributacaouf***, assim ao apresentar os dados que precisam ser alterados e/ou corrigidos, podem ser copiados e encaminhados para a automatização.
+> Para facilitar o trabalho da automatização em conjunto com o Tributário, abaixo são os códigos utilizados na tabela ***consinco.map_tributacaouf***, assim ao apresentar os dados que precisam ser alterados e/ou corrigidos, podem ser copiados e encaminhados para a automatização.
 
 CÓDIGOS DO CAMPO DA TABELA: 
 
