@@ -20,19 +20,20 @@ Como detentores do conhecimento geral sobre as configurações na grade de UF, o
 
 Realiza a identificação das alíquotas aplicadas para a "Regra Geral" no estado, assim como para os diversos produtos sujeitos a diferentes alíquotas e os benefícios fiscais aplicáveis a alguns produtos. Estes benefícios incluem:
 
-1. FECOEP (FCP) - Fundo Estadual de Combate e Erradicação da Pobreza (ou Fundo de Combate à Pobreza):
+1. **FECOEP (FCP):**
+Fundo Estadual de Combate e Erradicação da Pobreza (ou Fundo de Combate à Pobreza):
 Embora não represente um benefício direto para as empresas, a contribuição para o FCP é uma obrigação tributária adicional que financia ações e programas sociais voltados ao combate da pobreza.
 
-2. Reduções de Base de Cálculo:
+2. **Reduções de Base de Cálculo:**
 Consistem em diminuir o valor sobre o qual o imposto é calculado. Essa redução pode ser aplicada a determinadas operações ou produtos, visando estimular setores específicos, como a redução da carga tributária sobre insumos essenciais.
 
-3. Isenções:
+3. **Isenções:**
 Isenção tributária significa a dispensa do pagamento de determinado tributo. Pode ser concedida a produtos, operações ou setores específicos, com o objetivo de estimular atividades econômicas, reduzir custos ou promover o desenvolvimento.
 
-4. Créditos Outorgados:
+4. **Créditos Outorgados:**
 Benefícios fiscais concedidos automaticamente pelo governo, sem a necessidade de cumprir condições específicas. Podem incluir reduções de alíquotas, isenções ou créditos tributários aplicados automaticamente para incentivar certas atividades ou setores.
 
-5. Diferimentos:
+5. **Diferimentos:**
 O diferimento tributário permite o adiamento do pagamento do imposto para uma fase posterior da cadeia produtiva ou comercial. Isso é feito para evitar a oneração excessiva do processo produtivo, postergando o pagamento do tributo para uma etapa subsequente.
 
 > As ferramentas utilizadas para aprofundamento das análises e processos específicos incluem a assessoria no site da Econet (http://www.econeteditora.com.br/), que possibilita a busca de informações de forma mais rápida. No entanto, a maior seguridade que temos é validar as informações diretamente pelo site da Fazenda do estado, tornando assim as informações ainda mais confiáveis.
