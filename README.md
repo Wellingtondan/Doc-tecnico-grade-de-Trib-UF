@@ -40,6 +40,20 @@ O diferimento tributário permite o adiamento do pagamento do imposto para uma f
 
 #### 2.1 Metodologia/ Processo de parametrização
 
+`ICMS Próprio`
+
+Para a aplicação do ICMS, temos na tabela da Grade UF alguns campos relevantes para análises de alíquotas e benefícios. Seguem os códigos dos campos abaixo:
+
+CÓDIGOS DO CAMPO DA TABELA: 
+     
+|***CAMPO***  |***LEGENDA*** | 
+| ----------| --------------|
+| PERTRIBUTADO | %Tributado |
+| PERISENTO | %Isento |
+| PEROUTRO | %Outros |
+| PERALIQUOTA | Alíquota |
+     
+
 `MVA Importados (Resolução 13)`
 
 Estabelece alíquotas do Imposto sobre Operações Relativas à Circulação de Mercadorias e sobre Prestação de Serviços de Transporte Interestadual e Intermunicipal e de Comunicação (ICMS), nas operações interestaduais com bens e mercadorias importados do exterior. Deve-se considerar algumas regras de aplicação dos valores de MVA que geralmente aocntecem dúvidas quando ao entendimento, como por exemplo:
@@ -52,7 +66,7 @@ Estabelece alíquotas do Imposto sobre Operações Relativas à Circulação de 
 
 Para facilitar o trabalho da automatização em conjunto com o Tributário, abaixo são os códigos utilizados na tabela ***consinco.map_tributacaouf***, assim ao apresentar os dados que precisam ser alterados e/ou corrigidos, podem ser copiados e encaminhados para a automatização.
 
-III.II CÓDIGOS DA TABELA: 
+CÓDIGOS DO CAMPO DA TABELA: 
 
 |***CAMPO***  |***LEGENDA*** | 
 | ----------| --------------|
