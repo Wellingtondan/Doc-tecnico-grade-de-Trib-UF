@@ -65,6 +65,8 @@ Para a Substituição Tributária vale ressaltar algumas condições quando util
 
 - Reduções interestaduais com o Suco de laranja em SP (Nas saídas internas de suco de laranja (NCM 2009.1), há previsão de redução da base de cálculo, garantindo que a carga tributária corresponda a 12%, desde que atendidos os requisitos legais do artigo 61 do Anexo II do RICMS/SP. Para esse caso, considera-se a MVA original. Além disso, há uma redução de 33,33% para toda a cadeia, conforme previsto para as saídas internas. No caso do Artigo 39 - Base de cálculo reduzida nas operações com preparações de produtos hortícolas, de frutas ou de outras partes de plantas do capítulo 20 da NCM, exceto suco de laranja classificado no código 2009.1 da NCM - a redução se aplica aos demais sucos.
 
+- O MVA Ajustado é utilizado quando não há previsão de redução na carga tributária. Nesse caso, realiza-se o ajuste da Margem de Valor Agregado.
+
 
 `MVA Importados (Resolução 13)`
 
