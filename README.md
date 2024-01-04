@@ -44,11 +44,15 @@ O diferimento tributário permite o adiamento do pagamento do imposto para uma f
 
 Estabelece alíquotas do Imposto sobre Operações Relativas à Circulação de Mercadorias e sobre Prestação de Serviços de Transporte Interestadual e Intermunicipal e de Comunicação (ICMS), nas operações interestaduais com bens e mercadorias importados do exterior. Deve-se considerar algumas regras de aplicação dos valores de MVA que geralmente aocntecem dúvidas quando ao entendimento, como por exemplo:
 
-- Alíquota 18% para 4% - Quando for uma operação em que não resulte redução interna.
-- Alíquota 12% para 4% - Quando ocorrer redução de 33,33% que resulte em 12% a carga tributária.
-- Alíquota 7% para 4% - Quando ocorrer redução de Cesta Básica, resultante em carga tributária de 7%.
+|***CAMPO***  |***LEGENDA*** | 
+| ----------| --------------|
+|- Alíquota 18% para 4% -| Quando for uma operação em que não resulte redução interna.|
+|- Alíquota 12% para 4% -| Quando ocorrer redução de 33,33% que resulte em 12% a carga tributária.|
+|- Alíquota 7% para 4% - |Quando ocorrer redução de Cesta Básica, resultante em carga tributária de 7%.|
 
-- III.II CÓDIGOS: 
+Para facilitar o trabalho da automatização em conjunto com o Tributário, abaixo são os códigos utilizados na tabela consinco.map_tributacaouf, assim ao apresentar os dados que precisam ser alterados e/ou corrigidos, podem ser copiados e encaminhados para a automatização.
+
+III.II CÓDIGOS DA TABELA: 
 
 |***CAMPO***  |***LEGENDA*** | 
 | ----------| --------------|
