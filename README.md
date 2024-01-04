@@ -53,7 +53,15 @@ CÓDIGOS DO CAMPO DA TABELA:
 | PEROUTRO | %Outros |
 | PERALIQUOTA | Alíquota |
      
-> Como de conhecimento aqui são aplicadas as reduções de Cesta básica, Artigos compostos por benefícios fiscais, isenções, alíquotas internas e interestaduais e outros quando aplicável para microempresa.
+> Há o conhecimento de que são aplicadas reduções na cesta básica e em artigos compostos por benefícios fiscais que alcançam os fornecedores Fabricantes e Atacadistas, isenções, alíquotas internas e interestaduais, além de outros, quando aplicável para microempresas.
+
+`MVA Original e MVA AJustado 12%`
+
+Para a Substituição Tributária vale ressaltar algumas condições quando utilizado MVA Original ou Ajustado:
+
+
+
+
 
 `MVA Importados (Resolução 13)`
 
