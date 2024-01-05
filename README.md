@@ -12,6 +12,7 @@ Este documento contém informações de grande importância para a organização
 
 > [!IMPORTANT]
 > É válido para os analistas na área tributária, garantindo que o andamento dos processos contenha a mesma visão de trabalho para uma melhor fluidez.
+---------------------
 
 ### 2. Metodologia
 
@@ -37,7 +38,7 @@ O diferimento tributário permite o adiamento do pagamento do imposto para uma f
 
 > [!NOTE]  
 > As ferramentas utilizadas para aprofundamento das análises e processos específicos incluem a assessoria no site da Econet (http://www.econeteditora.com.br/), que possibilita a busca de informações de forma mais rápida. No entanto, a maior seguridade que temos é validar as informações diretamente pelo site da Fazenda do estado, tornando assim as informações ainda mais confiáveis.
-
+----------
 #### 2.1 Metodologia/ Processo de parametrização
 
 `ICMS Próprio`
@@ -55,6 +56,7 @@ CÓDIGOS DO CAMPO DA TABELA:
 
 > [!NOTE]     
 > Há o conhecimento de que são aplicadas reduções na cesta básica e em artigos compostos por benefícios fiscais que alcançam os fornecedores Fabricantes e Atacadistas, isenções, alíquotas internas, além de outros, quando aplicável para microempresas.
+----------
 
 `MVA Original e MVA AJustado 12%`
 
@@ -70,9 +72,6 @@ Para a Substituição Tributária vale ressaltar algumas condições quando util
 
 - No caso em que a alíquota interna seja igual à carga efetiva interestadual, o MVA será o Original, considerando a mesma margem de valor agregado.
 
-> [!NOTE]
-> Abaixo estão os códigos utilizados na tabela ***consinco.map_tributacaouf***, referentes aos campos ST, a fim de manter um formato completo para MVA, Alíquota ST e Percentual Tributado ST. Dessa forma, ao apresentar os dados que precisam ser alterados e/ou corrigidos, eles podem ser copiados e encaminhados para a automatização.
-
 CÓDIGOS DO CAMPO DA TABELA: 
 
 |***CAMPO***  |***LEGENDA*** | 
@@ -80,6 +79,10 @@ CÓDIGOS DO CAMPO DA TABELA:
 | PERACRESCST | %Acresc.ST |
 | PERALIQUOTAST | Alíquota ST |
 | PERTRIBUTST | %Tribut.ST |
+
+> [!NOTE]
+> Acima estão os códigos utilizados na tabela ***consinco.map_tributacaouf***, referentes aos campos ST, a fim de manter um formato completo para MVA, Alíquota ST e Percentual Tributado ST. Dessa forma, ao apresentar os dados que precisam ser alterados e/ou corrigidos, eles podem ser copiados e encaminhados para a automatização.
+----------
 
 `MVA Importados (Resolução 13)`
 
@@ -91,9 +94,6 @@ Estabelece alíquotas do Imposto sobre Operações Relativas à Circulação de 
 | Alíquota 12% para 4% | Quando ocorrer redução de 33,33% que resulte em 12% a carga tributária.|
 | Alíquota 7% para 4%  |Quando ocorrer redução de Cesta Básica, resultante em carga tributária de 7%.|
 
-> [!NOTE]
-> Para facilitar o trabalho da automatização em conjunto com o Tributário, abaixo são os códigos utilizados na tabela ***consinco.map_tributacaouf***, assim ao apresentar os dados que precisam ser alterados e/ou corrigidos, podem ser copiados e encaminhados para a automatização.
-
 CÓDIGOS DO CAMPO DA TABELA: 
 
 |***CAMPO***  |***LEGENDA*** | 
@@ -104,17 +104,14 @@ CÓDIGOS DO CAMPO DA TABELA:
 | PEROUTRORESOL13 | %Outros Resol13 |
 | PERICMSRESOLUCAO13 | %ICMS Resolução 13 |
 
+> [!NOTE]
+> Para facilitar o trabalho da automatização em conjunto com o Tributário, acima são os códigos utilizados na tabela ***consinco.map_tributacaouf***, assim ao apresentar os dados que precisam ser alterados e/ou corrigidos, podem ser copiados e encaminhados para a automatização.
+----------
+
 `FECOEP (FCP)`
  
  Esta alíquota nas operações destinadas a consumidor final localizado no Estado de São Paulo, serão somados dois pontos percentuais, destinados ao Fundo Estadual de Combate e Erradicação da Pobreza - totalizando, portanto, uma carga tributária de X%. O assunto encontra-se disciplinado no [artigo 56-C do RICMS/SP](http://www.econeteditora.com.br/icms_sao_paulo/livro1-art1a259.asp#art56c).
 
-> [!NOTE]
-> O adicional de 2% na alíquota aplicável as operações destinadas a consumidor final são citados as seguintes mercadorias no artigo acima que são:
-> 
-> I - bebidas alcoólicas classificadas na posição 2203 da Nomenclatura Comum do Mercosul - NCM 
->
-> II - fumo e seus sucedâneos manufaturados, classificados no capítulo 24 da Nomenclatura Comum do Mercosul - NCM.
-    
 CÓDIGOS DO CAMPO DA TABELA: 
 
 |***CAMPO***  |***LEGENDA*** | 
@@ -123,6 +120,13 @@ CÓDIGOS DO CAMPO DA TABELA:
 | PERALIQFCPST | Alíquota FCP ST |
 | TIPCALCFCPST | Tipo Cálculo FCP ST |
 
+> [!NOTE]
+> O adicional de 2% na alíquota aplicável as operações destinadas a consumidor final são citados as seguintes mercadorias no artigo acima que são:
+> 
+> I - bebidas alcoólicas classificadas na posição 2203 da Nomenclatura Comum do Mercosul - NCM 
+>
+> II - fumo e seus sucedâneos manufaturados, classificados no capítulo 24 da Nomenclatura Comum do Mercosul - NCM.
+----------
 
 `Parametrização do CALC em tributações de fornecedores optantes do Regime de Carne`
 
@@ -142,11 +146,7 @@ Conforme a exigência na grade de tributação para os campos citados no Tipo Ca
 
 >![Alt text](image-3.png)
 
-**Observação** – O valor PERALIQICMSCALCPRECO (%Tributado Calc) precisa ser 0.00 para que não tome crédito por causa da alíquota ser menor na saída de mercadoria dos produtos do tipo "Carne". 
-
 CÓDIGOS DO CAMPO DA TABELA:
-====
-
 
 |***CAMPO***  |***LEGENDA*** | 
 | ----------| --------------|
@@ -156,10 +156,52 @@ CÓDIGOS DO CAMPO DA TABELA:
 | PERALIQICMSCALCPRECO | Alíquota ICMS Calc |
 | TIPOCALCICMSFISCI | Tipo Calc.ICMS |
 
-  **Parâmetros para fins de cálculo:**
+**Parâmetros para fins de cálculo:**
 
    - **(Não reduz - N)** - *Redução Cálculo Substituição Tributária* 
 
    - **(%Tributado - T)** - *Redução da Base ICMS para Cálculo do ST*
 
    - **(Reduz ICMS Próprio - P)** - *Alíquota da Base ICMS para Cálculo do ST*
+
+> [!NOTE]
+> O valor **PERALIQICMSCALCPRECO** (% Tributado Calc) deve ser 0.00 para evitar a geração de crédito, devido à alíquota menor na saída de mercadoria dos produtos do tipo "Carne".
+----------
+
+`Parametrização do CALC em tributações com alcance do benefício de Cesta Básica`
+
+Quando se tratar de Substituição Tributária (ST) com redução da ST, nas entradas interestaduais, basta preencher a coluna **PERALIQICMSCALCPRECO** com a alíquota interna do Estado (18% no caso de SP). Na linha referente a São Paulo, deve-se deixar o campo nulo (Null), pois a redução é aplicável tanto no ICMS quanto na ST em SP. Essa redução se aplica nas linhas interestaduais apenas para a ST, que é o imposto correspondente aos nossos clientes como substitutos tributários. Isso é válido para a redução de cesta básica de 12% ou 18% para a carga tributária de 7%. Observe a imagem abaixo⬇️:
+
+![image](https://github.com/Wellingtondan/Doc-tecnico-grade-de-Trib-UF/assets/119419112/ece42121-859d-41da-ba95-d18aacfcf7f8)
+
+**Tipo Calc.ICMS (Observação: 01 - Termo Acordo ICMS Calculado)**
+
+Utilizado para quando a nota fiscal de entrada/saída tem alíquota de ICMS diferente da alíquota aplicada no cálculo do crédito/débito do ICMS.
+
+**Para cálculo ST é necessário estar configurada a grade por UF com redução da forma citada abaixo⬇️:**
+
+   - (Reduz Base - S)- Redução Cálculo Substituição Tributária
+
+   - (%Tributado ST - S) - Redução da Base ICMS para Cálculo do ST
+
+   - (Reduz ICMS Calculado - C) - Alíquota da Base ICMS para Cálculo do ST
+
+Para cálculo do ICMS Próprio das tributações tributadas deve-se informar a alíquota Calc de 7% para as linhas interestaduais, pois é a carga tributária utilizada para o crédito do ICMS, dessa forma será lançado no livro fiscal com a apropriação de crédito correto na entrada, esse é o caso de tributações tributadas.
+
+   - (Não Reduz - N)- Redução Cálculo Substituição Tributária
+
+   - (%Tributado - T) - Redução da Base ICMS para Cálculo do ST
+
+   - (Reduz ICMS Próprio - P) - Alíquota da Base ICMS para Cálculo do ST
+     
+CÓDIGOS DO CAMPO DA TABELA:
+
+|***CAMPO***  |***LEGENDA*** | 
+| ----------| --------------|
+| PERALIQICMSCALCPRECO | Alíquota ICMS Calc |
+| INDREDUZBASEST | Redução Cálculo Substituição Tributária |
+| TIPREDUCICMSCALCST | Redução da Base ICMS para Cálculo do ST |
+| TIPCALCICMSSELO | Alíquota da Base ICMS para Cálculo do ST |
+
+> [!NOTE]
+> O CALC de 18% é somente para fins de cálculo da ST para as operações interestaduais que não possuem a redução no ICMS próprio (origem), tem somente a redução na ST (destino). Pois tem que ser considerado a mesma carga utilizada na operação interna do destino (ou seja alíquota de 18% com redução de 61,11% ou alíquota de 12% com redução de 41,67%), pois se não tratarmos desta forma a ST ficará negativa.
