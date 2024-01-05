@@ -136,9 +136,9 @@ Conforme a exigência na grade de tributação para os campos citados no Tipo Ca
 
 >![Alt text](image-3.png)
 
-**Observação** – O valor PERALIQICMSCALCPRECO precisa ser 0.00 para que não tome crédito por causa da alíquota ser menor na saída de mercadoria dos produtos do tipo "Carne". 
+**Observação** – O valor PERALIQICMSCALCPRECO (%Tributado Calc) precisa ser 0.00 para que não tome crédito por causa da alíquota ser menor na saída de mercadoria dos produtos do tipo "Carne". 
 
-CÓDIGOS DO CAMPO DA TABELA: 
+<CÓDIGOS DO CAMPO DA TABELA:>
 
 |***CAMPO***  |***LEGENDA*** | 
 | ----------| --------------|
@@ -148,8 +148,7 @@ CÓDIGOS DO CAMPO DA TABELA:
 | PERALIQICMSCALCPRECO | Alíquota ICMS Calc |
 | TIPOCALCICMSFISCI | Tipo Calc.ICMS |
 
-  
-   - IV.III Parâmetros para fins de cálculo:
+  **Parâmetros para fins de cálculo:**
 
    - **(Não reduz - N)** - *Redução Cálculo Substituição Tributária* 
 
