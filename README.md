@@ -123,3 +123,40 @@ CÓDIGOS DO CAMPO DA TABELA:
 Conforme Decreto 62.647/2017 é vedado o aproveitamento de quaisquer outros créditos do imposto para estas aquisições, portanto, nas aquisições de carnes, o valor do ICMS destacado nas Notas Fiscais de aquisição o cliente não poderá tomar crédito causa essa da alíquota ser menor, precisando estar configurado da forma do registro de tela, abaixo⬇️:
 
 >![Alt text](image.png) ![Alt text](image-1.png)
+
+
+**Tipo Calc.ICMS (Observação: 21 - ICMS Calculado - GIA do MS)**
+
+Tipo de cálculo Fiscal implementado para calcular ICMS Calculado com Redução da base de Calculo, ao parametrizar o tipo 21, a tributação por UF exigirá as informações de %Base/%Isento/%Outras, o valor de ICMS Calculado será considerado no custo da mercadoria, no módulo Fiscal o valor calculado será considerado nas apurações.
+
+**Observação** – Este TIPOCALCICMSFISCI é utilizado por diversos clientes em diversas operações, solicitar a modificação do nome para 21 ICMS Calculado – Com Redução.
+
+>![Alt text](image-2.png)
+
+**(%Tributado Calc./ %Isento Calc./ %Outros Calc./ Alíquota ICMS Calc.)**
+
+Conforme a exigência na grade de tributação para os campos citados no Tipo Calc.ICMS, segue ilustração abaixo da parametrização nos campos:
+
+>![Alt text](image-3.png)
+
+CÓDIGOS DO CAMPO DA TABELA: 
+
+|***CAMPO***  |***LEGENDA*** | 
+| ----------| --------------|
+| PERTRIBUTADOCALC | %Tributado Calc |
+| PERISENTOCALC | %Isento Calc |
+| PEROUTROCALC | %Outros Calc |
+| PERALIQICMSCALCPRECO | Alíquota ICMS Calc |
+| TIPOCALCICMSFISCI | Tipo Calc.ICMS |
+
+
+
+**Observação 2:** O valor PERALIQICMSCALCPRECO precisa ser 0.00 para que não tome crédito por causa da alíquota ser menor na saída de mercadoria dos produtos do tipo "Carne". 
+   
+   - IV.III Parâmetros para fins de cálculo:
+
+   - **(Não reduz - N)** - *Redução Cálculo Substituição Tributária* 
+
+   - **(%Tributado - T)** - *Redução da Base ICMS para Cálculo do ST*
+
+   - **(Reduz ICMS Próprio - P)** - *Alíquota da Base ICMS para Cálculo do ST*
