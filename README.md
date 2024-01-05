@@ -69,7 +69,7 @@ Para a Substituição Tributária vale ressaltar algumas condições quando util
 
 > Abaixo estão os códigos utilizados na tabela ***consinco.map_tributacaouf***, referentes aos campos ST, a fim de manter um formato completo para MVA, Alíquota ST e Percentual Tributado ST. Dessa forma, ao apresentar os dados que precisam ser alterados e/ou corrigidos, eles podem ser copiados e encaminhados para a automatização.
 
-   - II.V CÓDIGOS:
+CÓDIGOS DO CAMPO DA TABELA: 
 
 |***CAMPO***  |***LEGENDA*** | 
 | ----------| --------------|
