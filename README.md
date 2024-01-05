@@ -105,7 +105,7 @@ CÓDIGOS DO CAMPO DA TABELA:
 
 > [!NOTE]
 > O adicional de 2% na alíquota aplicável as operações destinadas a consumidor final são citados as seguintes mercadorias no artigo acima que são:  
-> I - bebidas alcoólicas classificadas na posição 2203 da Nomenclatura Comum do Mercosul - NCM
+> I - bebidas alcoólicas classificadas na posição 2203 da Nomenclatura Comum do Mercosul - NCM / 
 > II - fumo e seus sucedâneos manufaturados, classificados no capítulo 24 da Nomenclatura Comum do Mercosul - NCM.
     
 CÓDIGOS DO CAMPO DA TABELA: 
