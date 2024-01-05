@@ -35,6 +35,7 @@ Benefícios fiscais concedidos automaticamente pelo governo, sem a necessidade d
 5. **Diferimentos:**
 O diferimento tributário permite o adiamento do pagamento do imposto para uma fase posterior da cadeia produtiva ou comercial. Isso é feito para evitar a oneração excessiva do processo produtivo, postergando o pagamento do tributo para uma etapa subsequente.
 
+> [!NOTE]  
 > As ferramentas utilizadas para aprofundamento das análises e processos específicos incluem a assessoria no site da Econet (http://www.econeteditora.com.br/), que possibilita a busca de informações de forma mais rápida. No entanto, a maior seguridade que temos é validar as informações diretamente pelo site da Fazenda do estado, tornando assim as informações ainda mais confiáveis.
 
 #### 2.1 Metodologia/ Processo de parametrização
