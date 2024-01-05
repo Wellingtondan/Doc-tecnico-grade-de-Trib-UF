@@ -138,7 +138,11 @@ Conforme a exigência na grade de tributação para os campos citados no Tipo Ca
 
 **Observação** – O valor PERALIQICMSCALCPRECO (%Tributado Calc) precisa ser 0.00 para que não tome crédito por causa da alíquota ser menor na saída de mercadoria dos produtos do tipo "Carne". 
 
+<<<<<<< HEAD
 <sub>CÓDIGOS DO CAMPO DA TABELA:</sub>
+=======
+<sub>CÓDIGOS DO CAMPO DA TABELA:</sub>
+>>>>>>> 628cf70f3099431f627e5dd73cabe6e6e5bfc81e
 
 |***CAMPO***  |***LEGENDA*** | 
 | ----------| --------------|
