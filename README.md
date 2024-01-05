@@ -4,7 +4,6 @@
 
 Com o objetivo de proporcionar maior clareza e compreensão sobre a Grade de Tributações por Unidade da Federação (UF), documentamos as informações essenciais para a estruturação dos processos da empresa. Dessa forma, identificamos uma abordagem que permite consolidar o conhecimento e as informações necessárias para serem aplicadas no trabalho com a base de tributação. Este documento visa oferecer um guia sólido e consistente para a equipe, otimizando a execução de tarefas relacionadas à tributação e promovendo eficiência nos processos.
 
-
 ### 1. Objetivos
 
 A padronização de processos em nossa equipe facilitará a contribuição para os resultados e a comunicação na linguagem entre os colaboradores, visando adotar, entre as análises, configurações e/ou parametrizações, a mesma sistemática de entendimento na execução de tarefas.
@@ -12,7 +11,6 @@ A padronização de processos em nossa equipe facilitará a contribuição para 
 Este documento contém informações de grande importância para a organização, que mantém como padrão o processo de validação da grade de tributação por UF e suas configurações para diferentes cenários.
 
 > É válido para os analistas na área tributária, garantindo que o andamento dos processos contenha a mesma visão de trabalho para uma melhor fluidez.
-
 
 ### 2. Metodologia
 
@@ -65,8 +63,19 @@ Para a Substituição Tributária vale ressaltar algumas condições quando util
 
 - Reduções interestaduais com o Suco de laranja em SP (Nas saídas internas de suco de laranja (NCM 2009.1), há previsão de redução da base de cálculo, garantindo que a carga tributária corresponda a 12%, desde que atendidos os requisitos legais do artigo 61 do Anexo II do RICMS/SP. Para esse caso, considera-se a MVA original. Além disso, há uma redução de 33,33% para toda a cadeia, conforme previsto para as saídas internas. No caso do Artigo 39 - Base de cálculo reduzida nas operações com preparações de produtos hortícolas, de frutas ou de outras partes de plantas do capítulo 20 da NCM, exceto suco de laranja classificado no código 2009.1 da NCM - a redução se aplica aos demais sucos.
 
-- O MVA Ajustado é utilizado quando não há previsão de redução na carga tributária. Nesse caso, realiza-se o ajuste da Margem de Valor Agregado.
+- O MVA Ajustado é utilizado quando não há previsão de redução na carga tributária e a carga efetiva interestadual for menor que a carga efetiva interna. Nesse caso, realiza-se o ajuste da Margem de Valor Agregado para as operações interestaduais.
 
+- No caso de a alíquota interna ser igual à carga efetiva interestadual, o MVA será o Original.
+
+> Abaixo estão os códigos utilizados na tabela ***consinco.map_tributacaouf***, referentes aos campos ST, a fim de manter um formato completo para MVA, Alíquota ST e Percentual Tributado ST. Dessa forma, ao apresentar os dados que precisam ser alterados e/ou corrigidos, eles podem ser copiados e encaminhados para a automatização.
+
+   - II.V CÓDIGOS:
+
+|***CAMPO***  |***LEGENDA*** | 
+| ----------| --------------|
+| PERACRESCST | %Acresc.ST |
+| PERALIQUOTAST | Alíquota ST |
+| PERTRIBUTST | %Tribut.ST |
 
 `MVA Importados (Resolução 13)`
 
