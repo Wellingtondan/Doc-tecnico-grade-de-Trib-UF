@@ -122,4 +122,4 @@ CÓDIGOS DO CAMPO DA TABELA:
 
 Conforme Decreto 62.647/2017 é vedado o aproveitamento de quaisquer outros créditos do imposto para estas aquisições, portanto, nas aquisições de carnes, o valor do ICMS destacado nas Notas Fiscais de aquisição o cliente não poderá tomar crédito causa essa da alíquota ser menor, precisando estar configurado da forma do registro de tela, abaixo⬇️:
 
-![Alt text](image.png) ![Alt text](image-1.png)
+>![Alt text](image.png) ![Alt text](image-1.png)
