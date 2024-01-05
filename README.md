@@ -10,6 +10,7 @@ A padronização de processos em nossa equipe facilitará a contribuição para 
 
 Este documento contém informações de grande importância para a organização, que mantém como padrão o processo de validação da grade de tributação por UF e suas configurações para diferentes cenários.
 
+> [!IMPORTANT]
 > É válido para os analistas na área tributária, garantindo que o andamento dos processos contenha a mesma visão de trabalho para uma melhor fluidez.
 
 ### 2. Metodologia
@@ -50,7 +51,8 @@ CÓDIGOS DO CAMPO DA TABELA:
 | PERISENTO | %Isento |
 | PEROUTRO | %Outros |
 | PERALIQUOTA | Alíquota |
-     
+
+> [!NOTE]     
 > Há o conhecimento de que são aplicadas reduções na cesta básica e em artigos compostos por benefícios fiscais que alcançam os fornecedores Fabricantes e Atacadistas, isenções, alíquotas internas, além de outros, quando aplicável para microempresas.
 
 `MVA Original e MVA AJustado 12%`
@@ -67,6 +69,7 @@ Para a Substituição Tributária vale ressaltar algumas condições quando util
 
 - No caso em que a alíquota interna seja igual à carga efetiva interestadual, o MVA será o Original, considerando a mesma margem de valor agregado.
 
+> [!NOTE]
 > Abaixo estão os códigos utilizados na tabela ***consinco.map_tributacaouf***, referentes aos campos ST, a fim de manter um formato completo para MVA, Alíquota ST e Percentual Tributado ST. Dessa forma, ao apresentar os dados que precisam ser alterados e/ou corrigidos, eles podem ser copiados e encaminhados para a automatização.
 
 CÓDIGOS DO CAMPO DA TABELA: 
@@ -87,6 +90,7 @@ Estabelece alíquotas do Imposto sobre Operações Relativas à Circulação de 
 | Alíquota 12% para 4% | Quando ocorrer redução de 33,33% que resulte em 12% a carga tributária.|
 | Alíquota 7% para 4%  |Quando ocorrer redução de Cesta Básica, resultante em carga tributária de 7%.|
 
+> [!NOTE]
 > Para facilitar o trabalho da automatização em conjunto com o Tributário, abaixo são os códigos utilizados na tabela ***consinco.map_tributacaouf***, assim ao apresentar os dados que precisam ser alterados e/ou corrigidos, podem ser copiados e encaminhados para a automatização.
 
 CÓDIGOS DO CAMPO DA TABELA: 
