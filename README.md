@@ -174,10 +174,6 @@ Quando se tratar de Substituição Tributária (ST) com redução da ST, nas ent
 
 ![image](https://github.com/Wellingtondan/Doc-tecnico-grade-de-Trib-UF/assets/119419112/ece42121-859d-41da-ba95-d18aacfcf7f8)
 
-**Tipo Calc.ICMS (Observação: 01 - Termo Acordo ICMS Calculado)**
-
-Utilizado para quando a nota fiscal de entrada/saída tem alíquota de ICMS diferente da alíquota aplicada no cálculo do crédito/débito do ICMS.
-
 **Para cálculo ST é necessário estar configurada a grade por UF com redução da forma citada abaixo⬇️:**
 
    - (Reduz Base - S)- Redução Cálculo Substituição Tributária
@@ -186,13 +182,21 @@ Utilizado para quando a nota fiscal de entrada/saída tem alíquota de ICMS dife
 
    - (Reduz ICMS Calculado - C) - Alíquota da Base ICMS para Cálculo do ST
 
-Para cálculo do ICMS Próprio das tributações tributadas deve-se informar a alíquota Calc de 7% para as linhas interestaduais, pois é a carga tributária utilizada para o crédito do ICMS, dessa forma será lançado no livro fiscal com a apropriação de crédito correto na entrada, esse é o caso de tributações tributadas.
+**Para cálculo do ICMS Próprio das tributações tributadas deve-se informar a alíquota Calc de 7% para as linhas interestaduais, pois é a carga tributária utilizada para o crédito do ICMS, dessa forma será lançado no livro fiscal com a apropriação de crédito correto na entrada, esse é o caso de tributações tributadas.**
+
+>![image](https://github.com/Wellingtondan/Doc-tecnico-grade-de-Trib-UF/assets/119419112/fa7b9568-c564-4275-b84e-4f9d982e4ff6)
 
    - (Não Reduz - N)- Redução Cálculo Substituição Tributária
 
    - (%Tributado - T) - Redução da Base ICMS para Cálculo do ST
 
    - (Reduz ICMS Próprio - P) - Alíquota da Base ICMS para Cálculo do ST
+
+**Tipo Calc.ICMS (Observação: 01 - Termo Acordo ICMS Calculado)**
+
+Utilizado para quando a nota fiscal de entrada/saída tem alíquota de ICMS diferente da alíquota aplicada no cálculo do crédito/débito do ICMS.
+
+>![image](https://github.com/Wellingtondan/Doc-tecnico-grade-de-Trib-UF/assets/119419112/22fb947a-f9ce-457d-8c8d-17c71373518b)
      
 CÓDIGOS DO CAMPO DA TABELA:
 
