@@ -51,7 +51,7 @@ CÓDIGOS DO CAMPO DA TABELA:
 | PEROUTRO | %Outros |
 | PERALIQUOTA | Alíquota |
      
-> Há o conhecimento de que são aplicadas reduções na cesta básica e em artigos compostos por benefícios fiscais que alcançam os fornecedores Fabricantes e Atacadistas, isenções, alíquotas internas e interestaduais, além de outros, quando aplicável para microempresas.
+> Há o conhecimento de que são aplicadas reduções na cesta básica e em artigos compostos por benefícios fiscais que alcançam os fornecedores Fabricantes e Atacadistas, isenções, alíquotas internas, além de outros, quando aplicável para microempresas.
 
 `MVA Original e MVA AJustado 12%`
 
@@ -99,3 +99,17 @@ CÓDIGOS DO CAMPO DA TABELA:
 | PEROUTRORESOL13 | %Outros Resol13 |
 | PERICMSRESOLUCAO13 | %ICMS Resolução 13 |
 
+
+`FECOEP (FCP)`
+ 
+ Esta alíquota nas operações destinadas a consumidor final localizado no Estado de São Paulo, serão somados dois pontos percentuais, destinados ao Fundo Estadual de Combate e Erradicação da Pobreza - totalizando, portanto, uma carga tributária de X%. O assunto encontra-se disciplinado no [artigo 56-C do RICMS/SP](http://www.econeteditora.com.br/icms_sao_paulo/livro1-art1a259.asp#art56c).
+
+> O adicional de 2% na alíquota aplicável as operações destinadas a consumidor final são citados as seguintes mercadorias no artigo acima que são:  I - bebidas alcoólicas classificadas na posição 2203 da Nomenclatura Comum do Mercosul - NCM e  II - fumo e seus sucedâneos manufaturados, classificados no capítulo 24 da Nomenclatura Comum do Mercosul - NCM.
+    
+CÓDIGOS DO CAMPO DA TABELA: 
+
+|***CAMPO***  |***LEGENDA*** | 
+| ----------| --------------|
+| BASEFCPST | Base FCP ST |
+| PERALIQFCPST | Alíquota FCP ST |
+| TIPCALCFCPST | Tipo Cálculo FCP ST |
