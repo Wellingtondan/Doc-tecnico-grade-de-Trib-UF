@@ -99,7 +99,6 @@ CÓDIGOS DO CAMPO DA TABELA:
 | PEROUTRORESOL13 | %Outros Resol13 |
 | PERICMSRESOLUCAO13 | %ICMS Resolução 13 |
 
-
 `FECOEP (FCP)`
  
  Esta alíquota nas operações destinadas a consumidor final localizado no Estado de São Paulo, serão somados dois pontos percentuais, destinados ao Fundo Estadual de Combate e Erradicação da Pobreza - totalizando, portanto, uma carga tributária de X%. O assunto encontra-se disciplinado no [artigo 56-C do RICMS/SP](http://www.econeteditora.com.br/icms_sao_paulo/livro1-art1a259.asp#art56c).
@@ -117,3 +116,12 @@ CÓDIGOS DO CAMPO DA TABELA:
 | BASEFCPST | Base FCP ST |
 | PERALIQFCPST | Alíquota FCP ST |
 | TIPCALCFCPST | Tipo Cálculo FCP ST |
+
+
+`Parametrização do CALC em tributações de fornecedores optantes do Regime de Carne`
+
+Conforme Decreto 62.647/2017 é vedado o aproveitamento de quaisquer outros créditos do imposto para estas aquisições, portanto, nas aquisições de carnes, o valor do ICMS destacado nas Notas Fiscais de aquisição o cliente não poderá tomar crédito causa essa da alíquota ser menor, precisando estar configurado da forma do registro de tela, abaixo⬇️:
+
+![Alt text](image.png)
+
+![Alt text](image-1.png)
