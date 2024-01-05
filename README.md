@@ -103,10 +103,9 @@ CÓDIGOS DO CAMPO DA TABELA:
  
  Esta alíquota nas operações destinadas a consumidor final localizado no Estado de São Paulo, serão somados dois pontos percentuais, destinados ao Fundo Estadual de Combate e Erradicação da Pobreza - totalizando, portanto, uma carga tributária de X%. O assunto encontra-se disciplinado no [artigo 56-C do RICMS/SP](http://www.econeteditora.com.br/icms_sao_paulo/livro1-art1a259.asp#art56c).
 
+> [!NOTE]
 > O adicional de 2% na alíquota aplicável as operações destinadas a consumidor final são citados as seguintes mercadorias no artigo acima que são:  
-
 > I - bebidas alcoólicas classificadas na posição 2203 da Nomenclatura Comum do Mercosul - NCM
-
 > II - fumo e seus sucedâneos manufaturados, classificados no capítulo 24 da Nomenclatura Comum do Mercosul - NCM.
     
 CÓDIGOS DO CAMPO DA TABELA: 
@@ -139,7 +138,7 @@ Conforme a exigência na grade de tributação para os campos citados no Tipo Ca
 **Observação** – O valor PERALIQICMSCALCPRECO (%Tributado Calc) precisa ser 0.00 para que não tome crédito por causa da alíquota ser menor na saída de mercadoria dos produtos do tipo "Carne". 
 
 CÓDIGOS DO CAMPO DA TABELA:
-
+====
 
 
 |***CAMPO***  |***LEGENDA*** | 
