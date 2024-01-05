@@ -120,10 +120,7 @@ CÓDIGOS DO CAMPO DA TABELA:
 
 `Parametrização do CALC em tributações de fornecedores optantes do Regime de Carne`
 
-Conforme Decreto 62.647/2017 é vedado o aproveitamento de quaisquer outros créditos do imposto para estas aquisições, portanto, nas aquisições de carnes, o valor do ICMS destacado nas Notas Fiscais de aquisição o cliente não poderá tomar crédito causa essa da alíquota ser menor, precisando estar configurado da forma do registro de tela, abaixo⬇️:
-
->![Alt text](image.png) ![Alt text](image-1.png)
-
+Conforme Decreto 62.647/2017 é vedado o aproveitamento de quaisquer outros créditos do imposto para estas aquisições, portanto, nas aquisições de carnes, o valor do ICMS destacado nas Notas Fiscais de aquisição o cliente não poderá tomar crédito causa essa da alíquota ser menor.
 
 **Tipo Calc.ICMS (Observação: 21 - ICMS Calculado - GIA do MS)**
 
@@ -139,6 +136,8 @@ Conforme a exigência na grade de tributação para os campos citados no Tipo Ca
 
 >![Alt text](image-3.png)
 
+**Observação** – O valor PERALIQICMSCALCPRECO precisa ser 0.00 para que não tome crédito por causa da alíquota ser menor na saída de mercadoria dos produtos do tipo "Carne". 
+
 CÓDIGOS DO CAMPO DA TABELA: 
 
 |***CAMPO***  |***LEGENDA*** | 
@@ -149,10 +148,7 @@ CÓDIGOS DO CAMPO DA TABELA:
 | PERALIQICMSCALCPRECO | Alíquota ICMS Calc |
 | TIPOCALCICMSFISCI | Tipo Calc.ICMS |
 
-
-
-**Observação 2:** O valor PERALIQICMSCALCPRECO precisa ser 0.00 para que não tome crédito por causa da alíquota ser menor na saída de mercadoria dos produtos do tipo "Carne". 
-   
+  
    - IV.III Parâmetros para fins de cálculo:
 
    - **(Não reduz - N)** - *Redução Cálculo Substituição Tributária* 
